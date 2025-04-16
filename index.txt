@@ -1,0 +1,5 @@
+<div class="buttons">
+  <button onclick="recordMake()">Make</button>
+  <button onclick="recordMiss()">Miss</button>
+  <button onclick="resetStats()" class="reset">Reset</button>
+</div>
