@@ -1,5 +1,28 @@
-<div class="buttons">
-  <button onclick="recordMake()">Make</button>
-  <button onclick="recordMiss()">Miss</button>
-  <button onclick="resetStats()" class="reset">Reset</button>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Free Throw Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Free Throw Tracker</h1>
+
+    <div class="stats">
+      <p id="makes">Makes: 0</p>
+      <p id="misses">Misses: 0</p>
+      <p id="percentage">Shooting %: 0.0%</p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="recordMake()">Make</button>
+      <button onclick="recordMiss()">Miss</button>
+      <button onclick="resetStats()" class="reset">Reset</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
